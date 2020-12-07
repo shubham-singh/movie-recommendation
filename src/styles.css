@@ -1,0 +1,44 @@
+.App {
+  font-family: sans-serif;
+  /* text-align: center; */
+}
+
+body {
+  background-color: #f3f4f6;
+}
+
+button {
+  padding: 0.3rem 1rem;
+  margin: 0rem 0.5rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+#root {
+  margin: 5% 25%;
+}
+
+#list {
+  border: 1px solid black;
+  border-radius: 0.3rem;
+  padding: 0.7rem;
+  max-width: 50%;
+  margin: 1rem;
+}
+
+@media (max-width: 450px) {
+  #root {
+    margin: 2%;
+  }
+  #list {
+    max-width: 80%;
+  }
+}
+@media (max-width: 800px) {
+  #root {
+    margin: 5%;
+  }
+  #list {
+    max-width: 70%;
+  }
+}
